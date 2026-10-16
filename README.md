@@ -6,25 +6,33 @@
 
 ## 下载
 
-[前往 v0.1.0-prealpha.1 的 GitHub Release 页面](https://github.com/oukeming64-tech/emba-card-game/releases/tag/v0.1.0-prealpha.1)
+[下载 v0.1.0-prealpha.2 · macOS Universal](https://github.com/oukeming64-tech/emba-card-game/releases/tag/v0.1.0-prealpha.2)
 
-- 平台：macOS
-- 架构：Universal（Apple Silicon `arm64` 与 Intel `x86_64`）
-- 文件：`任何人都能看懂并上手的EMBA课程_v0.1.0-prealpha.1_macOS_Universal.dmg`
-- 大小：346,573,554 bytes（约 330.5 MiB）
-- SHA-256：`0f1ef9a27aa32f52d60caa72f8a068b9a5ffd39723d26300eb4657dd6a3921f5`
+- 平台：macOS，支持 Apple Silicon `arm64` 与 Intel `x86_64`
+- 文件：`EMBA_v0.1.0-prealpha.2_macOS_Universal.dmg`
+- 大小：344,589,767 bytes（约 328.6 MiB）
+- SHA-256：`3645fc5ec16fc172fb72ebe663ae34478fdf1a71d5037c4910c8e9bb8b0f1af8`
+
+## 本次更新
+
+- 修复导出安装包把已打包的素材误判为缺失，导致封面、过场、画廊和音频回退的问题。
+- 攻击增加斩光、弹体拖尾和命中碎光；抵挡、爆炸、回复使用新的护盾、冲击波与环绕光带。
+- 重设计窗口、对话框、奖励和设置界面，减少重复说明，保留效果、价格和限制。
+- 优先优化全屏体验。商店、奇遇和复盘在原场景展示成交、选择后果与精修结果。
 
 ## 安装
 
 1. 从 Release 页面下载 DMG。
-2. 打开 DMG，将游戏拖入 `Applications`。
-3. 当前版本使用 ad-hoc 签名，尚未进行 Apple Developer ID 公证。如果 macOS 首次阻止打开，请在 Finder 的“应用程序”中右键游戏，选择“打开”，再确认一次。
+2. 打开 DMG，将游戏拖入 `Applications`；已有旧版时替换应用。
+3. 当前版本使用 ad-hoc 签名，尚未进行 Apple Developer ID 签名或公证。如果 macOS 首次阻止打开，请在 Finder 的“应用程序”中右键游戏，选择“打开”，再确认一次。
+
+应用标识与存档位置沿用旧版。本次更新不改变玩法规则或存档格式。
 
 ## 当前状态
 
-这是公开提供体验的 pre-alpha 版本。发布前已完成完整自动化回归、安装镜像校验、Universal 架构检查和挂载后启动检查，但尚未经过 Apple 公证、应用商店审核或大规模兼容性测试。
+这是公开提供体验的 pre-alpha 版本。本次更新经过相关功能专项验证、发行资源审计、DMG 镜像与双架构检查，以及本机挂载后导出程序的原生启动、主菜单和设置页检查；另以包内资源检查全部十页开场和角色选择画面。未重新运行全量回归，也未开展跨设备兼容性测试或 Apple 公证。
 
-这个公开仓库目前只用于安装包发布与体验说明，不包含项目源代码，也不授予源代码许可证。DMG 内附 Godot、Noto Sans CJK SC、已登记 CC0 音效及音乐资源的相关说明。
+这个公开仓库只用于安装包发布与体验说明，不包含项目源代码，也不授予源代码许可证。DMG 内附 Godot、Noto Sans CJK SC、已登记 CC0 音效及音乐资源的相关说明。旧版 Release 保留。
 
 ## 这款游戏从哪里来
 
